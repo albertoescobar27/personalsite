@@ -190,3 +190,54 @@ absoluto o relativo, margen o padding ;*/
   font-size: 0.75rem;
   padding: 20px 0;
 }
+
+/* ----- Responsive Design (Móviles y Tablets) ----- */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 3rem; /* Reducir tamaño de título principal */
+  }
+  
+  h2 {
+    font-size: 1.5rem; /* Reducir tamaño de subtítulos */
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  /* Ampliar el ancho de los contenedores en móvil para aprovechar el espacio */
+  .intro, .skill-row, .mensaje-contacto {
+    width: 90%;
+  }
+
+  .skill-row {
+    text-align: center;
+  }
+
+  /* Ajustar nubes para que no se sobrepongan al texto ni se salgan de pantalla */
+  .top-cloud {
+    right: 20px;
+    top: 20px;
+    width: 80px;
+  }
+
+  .botton-cloud {
+    left: 20px;
+    bottom: 250px;
+    width: 80px;
+  }
+
+  /* Quitar los 'floats' para que las imágenes se apilen arriba del texto en móviles */
+  .desarrolloweb-img, .desarrolloescritorio-img, .datos-img {
+    float: none;
+    display: block;
+    margin: 0 auto 20px auto;
+    width: 40%;
+  }
+
+  /* Centrar los botones en móvil */
+  .btn {
+    width: 80%;
+    margin: 10px auto;
+  }
+}
