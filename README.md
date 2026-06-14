@@ -1,6 +1,6 @@
 # Sitio Web Personal - Alberto Escobar
 
-Este proyecto es un sitio web personal que funciona como portafolio y tarjeta de presentación digital para **Alberto Escobar**, Desarrollador de Software.
+Este proyecto es un sitio web personal que funciona tarjeta de presentación digital para **Alberto Escobar**, Ingeniero en Tecnologías Computacionales.
 
 ## 🔗 Ver en vivo
 Puedes visitar el sitio web en la siguiente dirección:

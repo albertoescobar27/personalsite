@@ -1,20 +1,22 @@
-body{
+body {
   margin: 0;
-  text-align: center; /*centra todos los elementos en la antalla*/
+  text-align: center;
+  /*centra todos los elementos en la antalla*/
   font-family: 'Merriweather', serif;
   color: #40514E;
 }
 
-h1{
+h1 {
   color: #66BFBF;
   margin: 50px auto 0 auto;
 
   font-family: 'Sacramento', cursive;
-  font-size: 5rem; /*los mismo que decir 500%, es mejor usar rem que en lugar de em o porcentajes
+  font-size: 5rem;
+  /*los mismo que decir 500%, es mejor usar rem que en lugar de em o porcentajes
   es el mas adaptable y menos propenso a errores */
 }
 
-h2{
+h2 {
   color: #66BFBF;
   font-family: 'Montserrat', sans-serif;
   font-size: 2rem;
@@ -22,70 +24,90 @@ h2{
   padding-bottom: 10px;
 }
 
-h3{
+h3 {
   color: #11999E;
   font-family: 'Montserrat', sans-serif;
 }
 
-p{
-    line-height: 2;
+p {
+  line-height: 2;
 }
 
-hr{
+hr {
   border: dotted #EAF6F6 6px;
   border-bottom: none;
   width: 4%;
   margin: 100px auto;
 }
 
-a{
+.social-btn {
+  display: inline-block;
+  background-color: #11999E;
+  color: #FFFFFF !important;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.social-btn:hover {
+  background-color: #EAF6F6;
+  color: #11999E !important;
+  transform: translateY(-2px);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+a {
   color: #11999E;
   font-family: 'Montserrat', sans-serif;
   margin: 10px 20px;
   text-decoration: none;
 }
 
-a:hover{
+a:hover {
   color: #EAF6F6;
 }
 
-#perfil-img{
+#perfil-img {
   width: 15%;
 }
 
-.intro{
+.intro {
   width: 30%;
   margin: auto;
 }
 
-.top-container{
+.top-container {
   background-color: #EAF6F6;
   position: relative;
   padding-top: 100px;
 }
 
-.middle-container{
+.middle-container {
   margin: 100px auto;
 }
 
-.botton-container{
+.botton-container {
   background-color: #66BFBF;
   padding: 50px 0 20px;
 }
 
-.skill-row{
+.skill-row {
   width: 50%;
   margin: 100px auto 100px auto;
   text-align: left;
 }
 
-.botton-cloud{
+.botton-cloud {
   position: absolute;
   left: 300px;
   bottom: 300px;
 }
 
-.top-cloud{
+.top-cloud {
   position: absolute;
   right: 300px;
   top: 50px;
@@ -97,35 +119,37 @@ elementos*/
 
 /*para el posicionamiento es mejor usar lo que aprendimos
 absoluto o relativo, margen o padding ;*/
-.desarrolloweb-img{
-/*podemos colocar el tamanio aqui*/
-width: 20%;
-float: left;
-margin-right: 30px;
-}
-
-.desarrolloescritorio-img{
-/*podemos colocar el tamanio aqui*/
-width: 20%;
-float: right;
-margin-left: px;
-}
-
-.datos-img{
+.desarrolloweb-img {
+  /*podemos colocar el tamanio aqui*/
   width: 20%;
   float: left;
   margin-right: 30px;
 }
 
-.habilidad1-descripcion{
-  clear: left; /*evita que se reacomode o envuelva la imagen del lado izquierdo*/
+.desarrolloescritorio-img {
+  /*podemos colocar el tamanio aqui*/
+  width: 20%;
+  float: right;
+  margin-left: px;
 }
 
-.habilidad2-descripcion{
-  clear: right; /*evita que el texto se reacomode o envuelva la imagen del lado derecho*/
+.datos-img {
+  width: 20%;
+  float: left;
+  margin-right: 30px;
 }
 
-.mensaje-contacto{
+.habilidad1-descripcion {
+  clear: left;
+  /*evita que se reacomode o envuelva la imagen del lado izquierdo*/
+}
+
+.habilidad2-descripcion {
+  clear: right;
+  /*evita que el texto se reacomode o envuelva la imagen del lado derecho*/
+}
+
+.mensaje-contacto {
   width: 40%;
   margin: 40px auto 60px;
 }
@@ -161,9 +185,8 @@ margin-left: px;
   text-decoration: none;
 }
 
-.copyright{
+.copyright {
   color: #EAF6F6;
   font-size: 0.75rem;
   padding: 20px 0;
 }
-
