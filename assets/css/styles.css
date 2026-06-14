@@ -113,6 +113,13 @@ a:hover {
   top: 50px;
 }
 
+.mountain-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
 /*recomendacion, usar float solo para envolver
 un texto en un determinado elemento u no para posicionar
 elementos*/
@@ -239,5 +246,9 @@ absoluto o relativo, margen o padding ;*/
   .btn {
     width: 80%;
     margin: 10px auto;
+  }
+
+  #perfil-img {
+    width: 40%;
   }
 }
